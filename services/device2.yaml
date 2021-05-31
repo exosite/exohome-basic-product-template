@@ -1,0 +1,90 @@
+protocol:
+    name: "murano:v1/mqtt"
+#    port: 443
+provisioning:
+    auth_type: token
+
+resources:
+    action:
+        allowed: []
+        format: string
+        settable: true
+        unit: ''
+    cert:
+        allowed: []
+        format: string
+        settable: false
+        unit: ''
+    connected:
+        allowed: []
+        format: number
+        settable: true
+        sync: false
+        unit: ''
+    debug:
+        allowed: []
+        format: string
+        settable: false
+        unit: ''
+    esh:
+        allowed: []
+        format: string
+        settable: false
+        unit: ''
+    fields:
+        allowed: []
+        format: string
+        settable: true
+        unit: ''
+    model:
+        allowed: []
+        format: string
+        settable: true
+        sync: false
+        unit: ''
+    module:
+        allowed: []
+        format: string
+        settable: false
+        unit: ''
+    ota:
+        allowed: []
+        format: string
+        settable: false
+        unit: ''
+    owner:
+        allowed: []
+        format: string
+        settable: true
+        unit: ''
+    provisioned_time:
+        allowed: []
+        format: number
+        settable: true
+        sync: false
+        unit: ''
+    report_config:
+        allowed: []
+        format: string
+        settable: false
+        unit: ''
+    result:
+        allowed: []
+        format: string
+        settable: false
+        unit: ''
+    schedules:
+        allowed: []
+        format: string
+        settable: true
+        unit: ''
+    states:
+        allowed: []
+        format: string
+        settable: false
+        unit: ''
+    token:
+        allowed: []
+        format: string
+        settable: false
+        unit: ''
